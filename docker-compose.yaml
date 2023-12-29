@@ -1,10 +1,10 @@
-version: "3"
+version: "3.8"
 
 services:
   vpnserver:
     image: "yufishing/ocserv:latest"
     ports:
-    - 9443:9443
+    - 9443:443
     volumes:
     - /etc/ocserv:/etc/ocserv
     cap_add:
